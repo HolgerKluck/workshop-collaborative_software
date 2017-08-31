@@ -23,6 +23,12 @@ BLINKER3 = pad("""\
      #
 """)
 
+HPATTERN = pad("""\
+ #  #
+ ####
+ #  #
+""")
+
 PULSAR = pad("""\
   ###
 
@@ -83,7 +89,7 @@ BASELINE = pad("""\
 
 PATTERNS = [
     'BLOCK', 'BLINKER', 'BLINKER3', 'PULSAR', 'PENTADECATHLON', 'PINWHEEL', 'GLIDER', 'DIEHARD', 'GLIDER_GUN',
-    'PENTOMINO'
+    'PENTOMINO', 'HPATTERN'
 ]
 
 __all__ = PATTERNS[:]
