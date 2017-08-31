@@ -16,6 +16,7 @@ os:
 # command to install dependencies
 #install: "pip install -r requirements.txt"
 before_script:
+ - pip install coverage
  - export PYTHONHASHSEED=${PYTHONHASHSEED:-${RANDOM}}
  - export COVERAGE_PRCOESS_START=$(pwd)/.coveragerc
 # command to run tests
